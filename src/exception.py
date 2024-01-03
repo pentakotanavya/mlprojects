@@ -28,7 +28,3 @@ class CustomException(Exception):
             logging.info("divided by zero")
             raise CustomException(e,sys) 
 
-
-
-plkvb ,';/*
-'    
