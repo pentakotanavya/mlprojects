@@ -2,5 +2,9 @@ pandas
 numpy
 seaborn
 matplotlib
-sklearn
--e .
+category_encoders
+scikit-learn
+xgboost
+Flask
+catboost
+#-e .
