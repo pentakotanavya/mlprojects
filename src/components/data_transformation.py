@@ -42,7 +42,7 @@ class DataTransformation:
             cat_encoder = CatBoostEncoder()
 
             target_column_name = 'class'
-            drop_column = 'veil-type'
+            drop_column = 'veil_type'
                                  
             drop_columns = [target_column_name,drop_column]
 

@@ -32,25 +32,25 @@ class PredictPipeline:
 
 class CustomData:
     def __init__(self,
-                 cap-shape:str,
-                 cap-surface:str,
-                 cap-color:str,
+                 cap_shape:str,
+                 cap_surface:str,
+                 cap_color:str,
                  bruises:str,
                  odor:str,
-                 gill-attachment:str,
-                 gill-spacing:str,
-                 gill-size:str,
-                 gill-color:str,
-                 stalk-shape:str,
-                 stalk-root:str,
-                 stalk-surface-above-ring:str,
-                 stalk-surface-below-ring:str,
-                 stalk-color-above-ring:str,
-                 stalk-color-below-ring:str,
-                 veil-color:str,
-                 ring-number:str,
-                 ring-type:str,
-                 spore-print-color:str,
+                 gill_attachment:str,
+                 gill_spacing:str,
+                 gill_size:str,
+                 gill_color:str,
+                 stalk_shape:str,
+                 stalk_root:str,
+                 stalk_surface_above_ring:str,
+                 stalk_surface_below_ring:str,
+                 stalk_color_above_ring:str,
+                 stalk_color_below_ring:str,
+                 veil_color:str,
+                 ring_number:str,
+                 ring_type:str,
+                 spore_print_color:str,
                  population:str,
                  habitat:str):
     
@@ -58,25 +58,25 @@ class CustomData:
     
 
     
-        self.cap-shape=cap-shape
-        self.cap-surface=cap-surface
-        self.cap-color=cap-color
+        self.cap_shape=cap_shape
+        self.cap_surface=cap_surface
+        self.cap_color=cap_color
         self.bruises=bruises
         self.odor=odor
-        self.gill-attachment=gill-attachment
-        self.gill-spacing=gill-spacing
-        self.gill-size=gill-size
-        self.gill-color=gill-color
-        self.stalk-shape=stalk-shape
-        self.stalk-root=stalk-root
-        self.stalk-surface-above-ring=stalk-surface-above-ring
-        self.stalk-surface-below-ring=stalk-surface-below-ring
-        self.stalk-color-above-ring=stalk-color-above-ring
-        self.stalk-color-below-ring=stalk-color-below-ring
-        self.veil-color=veil-color
-        self.ring-number=ring-number
-        self.ring-type=ring-type
-        self.spore-print-color=spore-print-color
+        self.gill_attachment=gill_attachment
+        self.gill_spacing=gill_spacing
+        self.gill_size=gill_size
+        self.gill_color=gill_color
+        self.stalk_shape=stalk_shape
+        self.stalk_root=stalk_root
+        self.stalk_surface_above_ring=stalk_surface_above_ring
+        self.stalk_surface_below_ring=stalk_surface_below_ring
+        self.stalk_color_above_ring=stalk_color_above_ring
+        self.stalk_color_below_ring=stalk_color_below_ring
+        self.veil_color=veil_color
+        self.ring_number=ring_number
+        self.ring_type=ring_type
+        self.spore_print_color=spore_print_color
         self.population=population
         self.habitat=habitat
 
@@ -84,25 +84,25 @@ class CustomData:
     def get_data_as_dataframe(self):
         try:
             custom_data_input_dict = {
-                'cap-shape':[self.cap-shape],
-                'cap-surface':[self.cap-surface],
-                'cap-color':[self.cap-color],
+                'cap_shape':[self.cap_shape],
+                'cap_surface':[self.cap_surface],
+                'cap_color':[self.cap_color],
                 'bruises':[self.bruises],
                 'odor':[self.odor],
-                'gill-attachment':[self.gill-attachment],
-                'gill-spacing':[self.gill-spacing],
-                'gill-size':[self.gill-size],
-                'gill-color':[self.gill-color],
-                'stalk-shape':[self.stalk-shape],
-                'stalk-root':[self.stalk-root],  
-                'stalk-surface-above-ring':[self.stalk-surface-above-ring],
-                'stalk-surface-below-ring':[self.stalk-surface-below-ring],
-                'stalk-color-above-ring':[self.stalk-color-above-ring],
-                'stalk-color-below-ring':[self.stalk-color-below-ring],
-                'veil-color':[self.veil-color],
-                'ring-number':[self.ring-number],
-                'ring-type':[self.ring-type],
-                'spore-print-color':[self.spore-print-color],
+                'gill_attachment':[self.gill_attachment],
+                'gill_spacing':[self.gill_spacing],
+                'gill_size':[self.gill_size],
+                'gill_color':[self.gill_color],
+                'stalk_shape':[self.stalk_shape],
+                'stalk_root':[self.stalk_root],  
+                'stalk_surface_above_ring':[self.stalk_surface_above_ring],
+                'stalk_surface_below_ring':[self.stalk_surface_below_ring],
+                'stalk_color_above_ring':[self.stalk_color_above_ring],
+                'stalk_color_below_ring':[self.stalk_color_below_ring],
+                'veil_color':[self.veil_color],
+                'ring_number':[self.ring_number],
+                'ring_type':[self.ring_type],
+                'spore_print_color':[self.spore_print_color],
                 'population':[self.population],
                 'habitat':[self.habitat]
             }
